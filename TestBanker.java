@@ -5,5 +5,7 @@ public class TestBanker{
     System.out.println(acc1.getAccountID());
     System.out.println(acc1.deposit(20));
     System.out.println(acc1.getBalance());
+    System.out.println(acc1.withdraw(15));
+    System.out.println(acc1.withdraw(10));
   }
 }
